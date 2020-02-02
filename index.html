@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
     <script src="js/script.js"></script>
     <title>Palindrome Checker</title>
 </head>
 <body>
     <h1>Check for Palindromes</h1>
     <form id="palindrome-form">
-        <label for="inputWord"></label>
-        <input id="inputWord"/>
-        <label for="inputText"></label>
-        <input id="inputText"/>
-        <button type="submit"></button>
+        <label for="inputWord">Find Palindromes for this word: </label>
+        <textarea id="inputWord"></textarea>
+        <label for="inputText">Search within this text: </label>
+        <textarea id="inputText"></textarea>
+        <button type="submit">Check</button>
     </form>
+<div id="result"></div>
 </body>
 </html>
