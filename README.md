@@ -1,5 +1,5 @@
 <!-- Category: Epicodus;HTML/CSS/JS -->
-# Palindrome Checker 1
+# Palindrome Checker
 
 Check if the given word is a palindrome
 
